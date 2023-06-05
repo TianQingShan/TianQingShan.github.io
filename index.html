@@ -14,7 +14,7 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Surf Guild">
-  <meta property="og:title" content="Surf Guild | A Web3 Gamer Guild">
+  <meta property="og:title" content="Surf Guild | A Web3 Gamer Guild" id="title-meta-tag">
   <meta property="og:description" content="Surf Guild is a P2E guild that brings players to earn via web3 game & social">
   <meta property="og:image" content="/seo/black-white-logo.png">
 
@@ -22,6 +22,12 @@
 </head>
 <body>
   test...
+
+  <script>
+    let titleMetaTag = document.querySelector('#title-meta-tag')
+
+    titleMetaTag.setAttribute('content', 'test...')
+  </script>
 
 </body>
 </html>
