@@ -1,0 +1,1 @@
+const S=()=>{let a=new Map([]);return{defineCancelMaps:e=>e.forEach(s=>a.set(s,null)),cancelRequest:e=>{var s;return(s=a.get(e))==null?void 0:s()},saveCancelFn:(e,s)=>a.set(e,s),cancelRequests:()=>a.forEach(e=>e==null?void 0:e())}},c=Symbol(),C=Symbol(),E=Symbol(),u=Symbol(),M=Symbol(),N=Symbol(),b=Symbol();export{c as H,M,C as N,b as S,N as a,E as b,u as c,S as u};
